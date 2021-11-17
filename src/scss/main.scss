@@ -1,5 +1,8 @@
 @import "~normalize.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
 @import "_variables";
 @import "modules/hero.scss";
 
@@ -16,5 +19,6 @@ html {
 
 
 body {
-
+font-family: Nunito;
+color: $text;
 }
