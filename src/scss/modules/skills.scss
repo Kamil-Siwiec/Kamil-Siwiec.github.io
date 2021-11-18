@@ -9,3 +9,20 @@
     text-align: center;
   }
 }
+
+.skills-section {
+    margin-top: 64px;
+  &__emoji {
+    font-size: 64px;
+    line-height: 64px;
+    display: block;
+    text-align: center;
+  }
+  &__header {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 44px;
+      text-align: center;
+      margin: 16px 0 24px;
+  } 
+}
