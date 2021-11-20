@@ -28,6 +28,11 @@
     display: none;
     @media (min-width: $desktop) {
       display: block;
+      background: $blue;
+      color: #fff;
+      padding: 16px 19px;
+      border-radius: 16px;
+      font-size: 32px;
     }
   }
   &__image {
