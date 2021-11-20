@@ -26,6 +26,9 @@
   }
   &__hello {
     display: none;
+    @media (min-width: $desktop) {
+      display: block;
+    }
   }
   &__image {
     box-sizing: content-box;
