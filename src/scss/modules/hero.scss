@@ -4,6 +4,11 @@
     max-width: 768px;
     margin: 0 auto;
   }
+  &__bubble {
+    position: absolute;
+    left: calc(50% + 90px);
+    top: -26px;
+  }
   &__contact {
     border-radius: 64px;
     color: #fff;
@@ -23,6 +28,10 @@
     line-height: 32px;
     text-align: center;
     color: $textDark;
+    @media (min-width: $desktop) {
+      font-size: 32px;
+      line-height: 40px;
+    }
   }
   &__hello {
     display: none;
@@ -33,6 +42,17 @@
       padding: 16px 19px;
       border-radius: 16px;
       font-size: 32px;
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 32px;
+        display: block;
+        width: 17.42px;
+        height: 22.66px;
+        background: url("../assets/img/cloud.svg");
+      }
     }
   }
   &__image {
@@ -41,11 +61,18 @@
     height: 96px;
     border: 16px solid #f6f9fd;
     border-radius: 50%;
+
+    @media (min-width: $desktop) {
+      width: 178px;
+      height: 178px;
+      border: 24px solid #f6f9fd;
+    }
   }
   &__image-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
   }
   &__link {
     font-weight: bold;
@@ -58,6 +85,10 @@
     line-height: 32px;
     text-align: center;
     margin-bottom: 48px;
+    @media (min-width: $desktop) {
+      font-size: 20px;
+      line-height: 40px;
+    }
   }
   &__special {
     color: $blue;
