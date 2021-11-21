@@ -29,13 +29,21 @@
       max-width: 786px;
       margin: 0 auto;
       position: relative;
-      &::before, ::after {
+      &:before, &:after {
         content: "";
         display: block;
         position: absolute;
         width: 82.94px;
         height: 254.88px;
         top: 0;
+      }
+      &:before {
+        background: url('../assets/img/left.svg');
+        right: 100%;
+      }
+      &:after {
+        background: url('../assets/img/right.svg');
+        left: 100%;
       }
     }
   }
