@@ -56,8 +56,12 @@
     display: grid;
     grid-template-columns: 102px 1fr;
     column-gap: 8px;
+    margin: 0 0 8px 0;
     @media (min-width: $desktop) {
       grid-template-columns: 116px 1fr;
+    }
+    &--description {
+        margin-bottom: 24px;
     }
   }
   &__label {
@@ -74,6 +78,7 @@
     font-size: 13px;
     line-height: 24px;
     color: #fff;
+    margin-top: 24px;
     @media (min-width: $desktop) {
       font-size: 16px;
       line-height: 24px;
@@ -92,6 +97,8 @@
   display: grid;
   column-gap: 24px;
   row-gap: 24px;
+  max-width: 1184px;
+  margin: 0 auto;
   @media (min-width: $tablet) {
     grid-template-columns: 1fr 1fr;
   }
