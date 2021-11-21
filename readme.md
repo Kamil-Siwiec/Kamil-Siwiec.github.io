@@ -1,8 +1,16 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://kamil-siwiec.github.io/og.png)
 
-# WTF Webpack Starter Kit 
+# Kamil Siwiec - JUNIOR FRONTEND DEVELOPER 
 
-Simple toolkit for your static websites development.
+My simple portfolio website.
+
+## Technologies and tools used:
+-WTF Webpack starterkit
+-Semantic HTML, HTML5,
+-BEM,
+-CSS3, CSS Flexbox, CSS Grid,
+-Javascript
+-Github API,
 
 ## How to use it?
 
