@@ -4,6 +4,9 @@
   list-style-type: none;
   padding: 0;
   margin: 56px 64px;
+  @media (min-width: $desktop) {
+      margin: 0;
+  }
   &__item {
     margin: 0 12px;
   }
