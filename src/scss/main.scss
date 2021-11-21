@@ -5,6 +5,7 @@
 
 @import "_variables";
 @import "modules/contact.scss";
+@import "modules/hand.scss";
 @import "modules/hero.scss";
 @import "modules/projects.scss";
 @import "modules/socials.scss";
@@ -13,6 +14,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
