@@ -1,4 +1,4 @@
-![cover](https://Kamil-Siwiec.github.io/og.png)
+![cover](https://Kamil-Siwiec.github.io/portfolio-about.png)
 
 # Kamil Siwiec - JUNIOR FRONTEND DEVELOPER 
 
@@ -12,6 +12,10 @@ My simple portfolio website.
 - Animations,
 - Javascript,
 - Github API
+
+## Screenshots:
+![kamil-siwiec.github.io](https://kamil-siwiec.github.io/portfolio-ss.png)
+
 
 ## How to use it?
 
